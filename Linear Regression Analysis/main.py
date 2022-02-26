@@ -24,9 +24,9 @@ print("Mean squared error is: ", mean_squared_error(breast_cancer_y_test, breast
 print("Weights: ", model.coef_)
 print("Intercept: ", model.intercept_)
 
-# plt.scatter(breast_cancer_X_test, breast_cancer_y_test)
-# plt.plot(breast_cancer_X_test, breast_cancer_y_predicted)
-# plt.show()
+plt.scatter(breast_cancer_X_test, breast_cancer_y_test)
+plt.plot(breast_cancer_X_test, breast_cancer_y_predicted)
+plt.show()
 
 
 
